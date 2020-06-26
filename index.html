@@ -3,8 +3,249 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<<<<<<< HEAD
     <title>Document</title>
   </head>
   <body></body>
 </html>
 Í
+=======
+    <title>Howard | Web </title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- TODO: 客製化Bootstrap CSS -->
+    <link rel="stylesheet" href="./scss/bootstrap.css">
+    <!-- 使用font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    />
+    <!-- 使用style.css -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <!-- TODO: navbar  navbar-dark-->
+    <nav
+      class="navbar navbar-expand-sm fixed-top navbar-default"
+      style="background-color: #11144c;"
+    >
+      <a class="navbar-brand" href="#">SHIH-HAO</a>
+      <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#HomeSection">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#introSection">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#GallerySection">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviewsSection">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#BlogSection">BLOG</a>
+          </li>
+          <li class="nav-item">
+
+
+            <a class="nav-link" href="#contactSection">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--  navbar  End-->
+    <!-- TODO:  header -->
+
+    <!-- header -->
+    <header
+      id="header"
+      class="jumbotron text-center text-white bg-dark bg-dark text-white"
+    >
+      <div class="container">
+        <h1>Coding My Dreams.</h1>
+        <p>
+          YOU ARE THE AUTHOR OF THE BOOK OF YOUR LIFE.
+        </p>
+        <!-- <a href="" class="btn btn-outline-primary"">link</a> -->
+      </div>
+    </header>
+    <!-- header end -->
+    <!-- about -->
+    <section id="about" class="bg-info ">
+      <h1 class="text-light text-center ">About</h1>
+      <!--slash-box-->
+      <div class="slash-box">
+        <div class="slash"></div>
+      </div>
+      <!--slash-box-end-->
+      <div class="row ">
+        <div class="col-lg-2"></div>
+        <div class="container col-lg-8 justify-content-center">
+          <div class="row justify-content-center py-5">
+            <div class="col-lg-2 justify-content-center">
+              <!-- 設定使用者照片變圓型 -->
+              <img
+                class="w-100 rounded-circle"
+                src="./image/howard2.jpg"
+                alt="user photo"
+              />
+            </div>
+            <div class="col-lg-9 justify-content-center">
+              <h3 class="title">Java Web Programmer</h3>
+              <h4 class="name">吳士豪 Wu,SHIH-HAO</h4>
+              <p>
+                是一個樂觀正向、勇於接受挑戰的人，畢業於國立虎尾科技大學-資訊工程系，個人特質屬於認真付出型，善於目標規劃，時間管理，按部就班完成待辦事項，追求成就感。個性憨厚喜歡與人接觸，善於協調溝通，願意傾聽他人想法及意見。
+              </p>
+            </div>
+          </div>
+          <!-- 第一頁 內容 結束 -->
+        </div>
+        <div class="col-lg-2"></div>
+      </div>
+    </section>
+
+    <section id="introSection" class="py-5 bg-primary">
+      <h1 class="section-title text-center text-secondary mb-5">Experience</h1>
+      <div class="container">
+        <!-- TODO: 修正排版為三項排一排 -->
+        <div class="row">
+          <div class="col-md-3">
+            <div class="intro-box">
+              <div class="icon text-primary py-3">
+               <img src="./image/fcb.png" alt="FCB" class="job">
+              </div>
+              <h3 class="text-secondary">資訊人員</h3>
+
+              <p>2020 ~ Present</p>
+              <div class="intro-line bg-success"></div>
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="intro-box">
+              <div class="icon text-primary py-3">
+                <img src="./image/inventic.png" alt="inventic" class="job">
+              </div>
+              <h3 class="text-secondary">BIOS 品質測試工程師</h3>
+
+              <p>2018 ~ 2019</p>
+              <div class="intro-line bg-success"></div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="intro-box">
+              <div class="icon text-primary py-3">
+                <img src="./image/giraffe.png" alt="girffe" class="job">
+              </div>
+              <h3 class="text-secondary">專職數學老師</h3>
+              <p>2016 ~ 2017</p>
+              <div class="intro-line bg-success"></div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="intro-box">
+              <div class="icon text-primary py-3">
+                <img src="./image/iicake.png" alt="iicake" class="job">
+              </div>
+              <h3 class="text-secondary">導覽員／造型毛巾DIY手作老師</h3>
+              <p>2016 ~ 2017</p>
+              <div class="intro-line bg-success"></div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+
+
+    <!-- footer -->
+    <footer id="contact" class="pt-5 bg-secondary">
+        <div class="container">
+            <div class="contact-box">
+                <h1 class="my-5 text-center">Contact</h1>
+                <div class="row">
+                    <div class="col-md-4">
+
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="contact-info-box">
+                            <h2 class="text-center">Contact info</h2>
+                            <ul>
+                                <li>Wu,Shih-Hao(Howard)</li>
+                                <li>
+                                    <a href="">+886-928-512-705</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:howard840802@gmail.com">howard840802@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="contact-info-box">
+                            <h2 class="text-center">Social Links</h2>
+                            <div class="social-links text-center">
+                                <a target="_blank" href="https://www.facebook.com" class="social-link" rel="noopener">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a target="_blank" href="" class="social-link" rel="noopener">
+                                    <i class="fab fa-github-alt"></i>
+                                </a>
+                                <a class="social-link" href="http://twitter.com/andy19910102" target="_blank" rel="noopener">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a class="social-link" href="" target="_blank" rel="noopener">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-footer mt-5">
+            <p id="copy-right" class="text-center">
+              copyright© Howard Wu 2020
+            </p>
+        </div>
+    </footer>
+    <!-- footer End-->
+
+    <!-- jquery.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- popper.min.js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap.min.js -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 連結網頁主程式 -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
+>>>>>>> Home page create
