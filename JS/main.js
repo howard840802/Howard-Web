@@ -7,7 +7,7 @@ $(".ad-toggle-btn").click(function () {
 });
 
 //當導覽列.navbar-nav裡面的nav-link被點擊時
-$(".navbar-nav .nav-link").click(function () {
+$("btn-next").click(function () {
   // 取得當下被點擊到的 .nav-link
   // console.log(this);
   // 取得屬性質.attr()
